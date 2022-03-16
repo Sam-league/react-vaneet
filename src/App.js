@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./component/header/Navbar";
 import { Container } from "@mui/material";
 import Body from "./component/body/Body";
+import Footer from "./component/footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Body />
       </Container>
+      <Footer />
     </div>
   );
 }
